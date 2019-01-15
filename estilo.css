@@ -1,0 +1,89 @@
+@charset "utf-8";
+body{
+    background-color: rgb(250, 250, 142);
+
+}
+header{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 143, 98);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+nav{
+    text-align: center;
+    display: inline;
+    border: 5px solid red;
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    left: 7px;
+  
+}
+ul{
+display: inline; 
+text-align: center;
+list-style-type: none;
+}
+.up{
+display: inline;
+text-align: center;
+}
+main{
+    background: url(naranja2.svg) repeat-x top
+}
+#naranja{
+text-align: center;
+background-color: rgb(240, 165, 146);
+font-size: 20px;
+border: 5px solid red;
+position: absolute;
+left: 25%;
+right: 25%;
+background: url(naranja.png) repeat-y top left repeat-y top right ;
+color: red;
+height: 30%;
+top: 130px;
+}
+
+
+#azul{
+text-align:center;
+background-color: rgb(164, 227, 247);
+position: absolute;
+right: 7%;
+left: 52%;
+top: 43%;
+border: 5px solid rgb(56, 141, 197);
+bottom: 25%;
+color:rgb(212, 175, 50); 
+font-size: 20px;
+}
+#amarillo{
+    text-align: initial;
+    background-color: rgb(245, 245, 90);
+    position: absolute;
+    left: 7%;
+    right: 52%;
+    top: 43%;
+    border: 5px solid rgb(175, 175, 44);
+    color: rgb(199, 199, 52);
+    bottom: 25%;
+    font-size: 20px;
+}
+footer{
+    bottom: 0%;
+}
+section{
+    bottom: 0%;
+}
+.down{
+position: relative;
+
+}
+p:hover {
+    z-index: 3;
+}
